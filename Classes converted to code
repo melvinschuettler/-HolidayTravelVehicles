@@ -1,0 +1,44 @@
+public class Customer {
+private String name;
+private Int idNumber;
+private String phoneNumber;
+private String adress;
+}
+public class Salesperson {
+private String name;
+private String idNumber;
+private String phoneNumber;
+private String address;
+
+}
+public class TradeVehicle {
+private String vehicleSerialNumber;
+private String vehicleName;
+private String vehicleModel;
+private String year;
+private String manufacturer;
+}
+public class NewVehicle {
+private String vehicleSerialNumber;
+private String vehicleName;
+private String vehicleModel;
+private String year;
+private String manufacturer;
+}
+public class Invoice {
+    private String fullCustomerInformation;
+    private String tradeInInformation;
+    private String dealerInstalledOption;
+    private String finalPrice;
+    private String applicationTaxes;
+    private String licenseFees;
+    private String salespersonSignature;
+    private String customerSignature;
+}
+public class Trade {
+    private Customer customer;
+    private Salesperson salesperson;
+    private TradeVehicle tradeVehicle;
+    private NewVehicle newVehicle;
+    private Invoice invoice;
+}
